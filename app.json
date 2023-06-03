@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "SkateFit",
+    "slug": "oomssport",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "version": "2.0.4",
+    "notification": {
+      "icon": "./assets/icon.png",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Updates from SkateFit",
+      "iosDisplayInForeground": true
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/ead5fd40-e407-4ec2-8ff0-831ffc9552b1"
+    },
+    "assetBundlePatterns": [
+      "./assets/**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oomssport.coachme",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": "NO"
+      }
+    },
+    "android": {
+      "package": "com.oomssport.coachme",
+      "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ead5fd40-e407-4ec2-8ff0-831ffc9552b1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

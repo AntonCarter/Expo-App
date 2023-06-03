@@ -1,0 +1,14 @@
+{
+  "build": {
+    "production": {
+      "android": {
+        "credentialsSource": "local",
+        "buildType": "apk"
+      },
+      "ios": {
+        "credentialsSource": "local"
+      },
+      "channel": "production"
+    }
+  }
+}
